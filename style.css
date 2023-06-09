@@ -1,0 +1,79 @@
+.container {
+    border: 5px solid rgb(180, 180, 180);
+    width: 700px;
+    height: 541px;
+    margin: 120px 0px 0px 240px;
+    background-color: rgb(180, 180, 180);
+    position: static;
+    border-radius: 70px;
+    
+}
+
+body {
+    background-color: rgb(107, 6, 0);
+}
+.header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px;
+    padding-left: 50px;
+    font-size: 30px;
+    color: rgb(107, 6, 0)   ;
+}
+
+.header input {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    left: 40px;
+    bottom: 105px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-rendering: initial;
+    margin: 10px;
+    width: 370px;   
+    color: rgb(0, 0, 0); 
+    
+}
+
+.gambar {
+    width: 500px;
+    height: 550px;
+    position: relative;
+    bottom: 447px;
+    left: 475px;
+    border-radius: 100px;
+
+}
+
+.container p {
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    color: rgb(42, 47, 52);
+    
+}
+
+.login {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid rgb(107, 6, 0);
+    background-color: rgb(107, 6, 0);
+    color: rgb(255, 255, 256);
+    border-radius: 20px;
+    width: 390px;
+    height: 35px; 
+    position: relative;
+    right: -50px;
+    bottom: 70px;
+    cursor: pointer;
+
+}
+
+.hero {
+    width: 80px;
+    position: relative;
+    bottom: 510px;
+    right: 290px;
+    border-radius: 100px;
+}
