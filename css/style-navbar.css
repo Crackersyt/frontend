@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* style */
+
+.header {
+      background-color: rgb(107, 6, 0);
+      height: 100px;  
+}
+
+.header h1 {
+    padding-left: 10px;
+    padding-top: 35px;
+    font-size: xx-large;
+	color: rgb(180, 180, 180);
+}
+
+.cari {
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	position: relative;
+	left: 900px;
+	bottom: 40px;
+	width: 550px;
+	height: 40px;
+}
+
+
+
+.pilihan a {
+	font-size: x-large;
+	text-decoration: none;
+	position: relative;
+	top: 25px;
+	left: 650px;
+	color: rgb(0, 0, 0);
+	padding-left: 88px;
+	text-align: center;
+}
+
+.pilihan h2 {
+	background-color: rgb(180, 180, 180);
+	height: 70px;
+	
+}
+
+.pilihan h2 a:hover {
+	background-color: aliceblue;
+	border-radius: 5px ;
+	border: 40px solid aliceblue;	
+	width: 900px;
+	text-align: center;
+
+}
+
+.sale .jual {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: x-large;
+	position: relative;
+	left: 35px;
+	bottom: 45px;
+}
+
+body {
+	background-color:  rgb(107, 6, 0);
+	height: 1000px;
+	
+}
+
+.gambar img {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	left: 50px;
+	top: 40px;
+	border: 1px solid rgb(107, 6, 0);
+	border-radius: 50px;
+}
+
+
+.container {
+	width: 200px;
+	height: 260px;
+	border: 2px solid rgb(255, 255, 255);
+	position: relative;
+	left: 970px;
+	bottom: 385px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+.jualan img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 30px;
+	top: 0px;
+}
+
+.jualan p {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: medium;
+	position: relative;
+	top: 0px;
+	left: 30px;
+	
+}
+
+.harga {
+	text-decoration: underline;
+}
+
+.jualan button {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: black;
+	color: aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	position: relative;
+	top: 35px;
+	left: 20px;
+	width: 160px;
+	height: 30px;
+	cursor: pointer;
+
+}
+
+.product h3 {
+	position: relative;
+	left: 1000px;
+	bottom: 410px;
+	font-size: xx-large;
+	color: rgb(180, 180, 180);
+	text-decoration: underline;
+}

@@ -37,6 +37,12 @@ body {
     
 }
 
+
+.header .login a{
+    text-decoration: none;
+    color: white;
+}
+
 .gambar {
     width: 500px;
     height: 550px;
